@@ -16,7 +16,7 @@ public class Task10 {
         for (int t = 0; t < 1; t++) {
             for (int i = 0; i < y; i++) {
                 mass[t][i] = in.nextInt();
-                System.out.println("Элемент["+0+"]["+i+"]:" + 3*mass[0][i] + " ");
+                System.out.println("Элемент["+t+"]["+i+"]:" + 3*mass[0][i] + " ");
             }
         }
     }}
