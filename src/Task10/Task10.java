@@ -13,10 +13,10 @@ public class Task10 {
         int y = in.nextInt();
         int mass[][] = new int[x][y];
         System.out.print("Введите элементы массива: ");
-        for (int t = 0; t < 1; t++) {
-            for (int i = 0; i < y; i++) {
+        for (int t = 0; t < x; t++)
+            for (int i = 0; i < y; i++)
                 mass[t][i] = in.nextInt();
-                System.out.println("Элемент["+t+"]["+i+"]:" + 3*mass[0][i] + " ");
-            }
-        }
-    }}
+        for (int i = 0; i < y; i++)
+            System.out.println("Элемент["+0+"]["+i+"]:" + 3*mass[0][i] + " ");
+    }
+}
